@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@sftp://myx@10.24.82.59:22/home/myx/anaconda3/envs/python3.5/bin/python3.5">
+          <settings>
+            <list>
+              <mapping local-root="F:/PycharmProject/resnet20" remote-root="/home/myx/resnet20" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://myx@10.24.82.59:22/home/myx/anaconda3/envs/py36torch11/bin/python3.6" />
+      </list>
+    </list>
+  </component>
+</project>

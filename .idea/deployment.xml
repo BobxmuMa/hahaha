@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="myx@10.24.82.59:22 password" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="PycharmProject">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/myx/PycharmProject" local="F:/PycharmProject" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="myx@10.24.82.59:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/myx/PycharmProject" local="F:/PycharmProject" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

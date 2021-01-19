@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://F:/PycharmProject/ABCPruner-master/.idea/ABCPruner-master.iml" filepath="F:/PycharmProject/ABCPruner-master/.idea/ABCPruner-master.iml" />
+      <module fileurl="file://F:/PycharmProject/RepDistiller-master/.idea/RepDistiller-master.iml" filepath="F:/PycharmProject/RepDistiller-master/.idea/RepDistiller-master.iml" />
+      <module fileurl="file://F:/PycharmProject/Test/.idea/Test.iml" filepath="F:/PycharmProject/Test/.idea/Test.iml" />
+      <module fileurl="file://F:/PycharmProject/darts-master/.idea/darts-master.iml" filepath="F:/PycharmProject/darts-master/.idea/darts-master.iml" />
+      <module fileurl="file://F:/PycharmProject/distill/.idea/distill.iml" filepath="F:/PycharmProject/distill/.idea/distill.iml" />
+      <module fileurl="file://F:/PycharmProject/filter-pruning-geometric-median-master/.idea/filter-pruning-geometric-median-master.iml" filepath="F:/PycharmProject/filter-pruning-geometric-median-master/.idea/filter-pruning-geometric-median-master.iml" />
+      <module fileurl="file://F:/视频分析前沿/gmm 马跃萧/.idea/gmm 马跃萧.iml" filepath="F:/视频分析前沿/gmm 马跃萧/.idea/gmm 马跃萧.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/mobilenetv2_base/.idea/mobilenetv2_base.iml" filepath="$USER_HOME$/Desktop/mobilenetv2_base/.idea/mobilenetv2_base.iml" />
+      <module fileurl="file://F:/PycharmProject/scripts/.idea/scripts.iml" filepath="F:/PycharmProject/scripts/.idea/scripts.iml" />
+      <module fileurl="file://F:/PycharmProject/search-EXP-20201201-001508/.idea/search-EXP-20201201-001508.iml" filepath="F:/PycharmProject/search-EXP-20201201-001508/.idea/search-EXP-20201201-001508.iml" />
+      <module fileurl="file://F:/PycharmProject/training_free/.idea/training_free.iml" filepath="F:/PycharmProject/training_free/.idea/training_free.iml" />
+      <module fileurl="file://F:/PycharmProject/training_free_netadaption/.idea/training_free_netadaption.iml" filepath="F:/PycharmProject/training_free_netadaption/.idea/training_free_netadaption.iml" />
+      <module fileurl="file://F:/PycharmProject/training_free_netadaption-master/.idea/training_free_netadaption-master.iml" filepath="F:/PycharmProject/training_free_netadaption-master/.idea/training_free_netadaption-master.iml" />
+    </modules>
+  </component>
+</project>

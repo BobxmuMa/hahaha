@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="155b697e-09d4-4716-90d0-f28cd319265e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="cbcda957-cd55-4aa9-a6c8-4c4be0151a9a" />
+  <component name="ProjectId" id="1jLuh77BdBNblzH85He3prC1Fax" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="F:/PycharmProject" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PycharmProject\training_free_netadaption\CAP" />
+      <recent name="F:\PycharmProject\training_free_netadaption" />
+      <recent name="F:\PycharmProject\training_free_netadaption\CKA" />
+      <recent name="F:\PycharmProject\Test" />
+      <recent name="F:\PycharmProject\resnet20_old\scripts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PycharmProject\distill\taskD" />
+      <recent name="F:\PycharmProject\distill\taskC" />
+      <recent name="F:\PycharmProject\distill\taskA\search-EXP-20201201-001508\scripts" />
+      <recent name="F:\PycharmProject\distill\taskB" />
+      <recent name="F:\PycharmProject\resnet20_old\scripts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.feature_extract (1)">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="Res2Net-ImageNet-Training-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="Res2Net-ImageNet-Training-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="Res2Net-ImageNet-Training-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Res2Net-ImageNet-Training-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="feature_extract (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="training_free_netadaption" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="F:/PycharmProject/training_free_netadaption/CAP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:/PycharmProject/training_free_netadaption/CAP/feature_extract.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="feature_extract" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="training_free_netadaption-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="F:/PycharmProject/training_free_netadaption-master/CAP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:/PycharmProject/training_free_netadaption-master/CAP/feature_extract.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="F:/PycharmProject/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:/PycharmProject/Test/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="F:/PycharmProject/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:/PycharmProject/Test/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="vgg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="training_free_netadaption-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="F:/PycharmProject/training_free_netadaption-master/CAP/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:/PycharmProject/training_free_netadaption-master/CAP/models/vgg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="Res2Net-ImageNet-Training-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Res2Net-ImageNet-Training-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="Res2Net-ImageNet-Training-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="Res2Net-ImageNet-Training-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="Res2Net-ImageNet-Training-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="Res2Net-ImageNet-Training-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.vgg" />
+      <item itemvalue="Python.test1" />
+      <item itemvalue="Python.feature_extract" />
+      <item itemvalue="Python.feature_extract (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.feature_extract (1)" />
+        <item itemvalue="Python.feature_extract" />
+        <item itemvalue="Python.test1" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.vgg" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="155b697e-09d4-4716-90d0-f28cd319265e" name="Default Changelist" comment="" />
+      <created>1603595818397</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603595818397</updated>
+      <workItem from="1603595825482" duration="1309000" />
+      <workItem from="1603716058965" duration="2699000" />
+      <workItem from="1603760873013" duration="31529000" />
+      <workItem from="1603848777261" duration="27133000" />
+      <workItem from="1603935422577" duration="16261000" />
+      <workItem from="1604025145613" duration="6743000" />
+      <workItem from="1604055398870" duration="14198000" />
+      <workItem from="1604114753802" duration="32000" />
+      <workItem from="1604114795714" duration="11391000" />
+      <workItem from="1604199591475" duration="10906000" />
+      <workItem from="1604280210196" duration="3959000" />
+      <workItem from="1604299967822" duration="6851000" />
+      <workItem from="1604307832678" duration="308000" />
+      <workItem from="1604308150380" duration="1642000" />
+      <workItem from="1604311048217" duration="2695000" />
+      <workItem from="1604369025867" duration="11493000" />
+      <workItem from="1604453704760" duration="7778000" />
+      <workItem from="1604628121211" duration="2635000" />
+      <workItem from="1604717420077" duration="6329000" />
+      <workItem from="1604809966506" duration="3191000" />
+      <workItem from="1604885275178" duration="10838000" />
+      <workItem from="1604972281825" duration="10099000" />
+      <workItem from="1605060432229" duration="4696000" />
+      <workItem from="1605236408310" duration="1199000" />
+      <workItem from="1605332679750" duration="2439000" />
+      <workItem from="1605494361150" duration="603000" />
+      <workItem from="1605578786005" duration="9053000" />
+      <workItem from="1605663525288" duration="3561000" />
+      <workItem from="1605707950071" duration="1196000" />
+      <workItem from="1605758289517" duration="11713000" />
+      <workItem from="1605845893903" duration="5005000" />
+      <workItem from="1605941728806" duration="5138000" />
+      <workItem from="1606018536261" duration="19438000" />
+      <workItem from="1606098126784" duration="10199000" />
+      <workItem from="1606187028269" duration="8669000" />
+      <workItem from="1606268411618" duration="3165000" />
+      <workItem from="1606361036961" duration="3028000" />
+      <workItem from="1606449650925" duration="2116000" />
+      <workItem from="1606533310231" duration="9069000" />
+      <workItem from="1606619538628" duration="29414000" />
+      <workItem from="1606703693263" duration="13169000" />
+      <workItem from="1606786182487" duration="1977000" />
+      <workItem from="1606799493363" duration="31921000" />
+      <workItem from="1606876791137" duration="21176000" />
+      <workItem from="1606969933831" duration="660000" />
+      <workItem from="1607054780962" duration="3207000" />
+      <workItem from="1607149609242" duration="897000" />
+      <workItem from="1607167048995" duration="23014000" />
+      <workItem from="1607308069148" duration="11712000" />
+      <workItem from="1607393542029" duration="24160000" />
+      <workItem from="1607481471732" duration="24050000" />
+      <workItem from="1607569653099" duration="8842000" />
+      <workItem from="1607659398478" duration="3490000" />
+      <workItem from="1607740563203" duration="20507000" />
+      <workItem from="1607834277939" duration="17207000" />
+      <workItem from="1607918760800" duration="2391000" />
+      <workItem from="1607997066428" duration="30513000" />
+      <workItem from="1608082532745" duration="18271000" />
+      <workItem from="1608168407062" duration="1311000" />
+      <workItem from="1608202357881" duration="600000" />
+      <workItem from="1608268954490" duration="1845000" />
+      <workItem from="1608377585103" duration="2393000" />
+      <workItem from="1608440691440" duration="1901000" />
+      <workItem from="1608604512931" duration="599000" />
+      <workItem from="1608689489749" duration="1196000" />
+      <workItem from="1608784608098" duration="1209000" />
+      <workItem from="1608877184812" duration="637000" />
+      <workItem from="1608963499537" duration="599000" />
+      <workItem from="1609040464922" duration="1196000" />
+      <workItem from="1609134464887" duration="1555000" />
+      <workItem from="1609208623020" duration="1197000" />
+      <workItem from="1609335066289" duration="657000" />
+      <workItem from="1609381295471" duration="4409000" />
+      <workItem from="1609511962196" duration="275000" />
+      <workItem from="1609569765963" duration="1797000" />
+      <workItem from="1609657002485" duration="16508000" />
+      <workItem from="1609740304486" duration="7925000" />
+      <workItem from="1609817250851" duration="1876000" />
+      <workItem from="1609910934612" duration="600000" />
+      <workItem from="1609995429250" duration="679000" />
+      <workItem from="1610001511473" duration="7311000" />
+      <workItem from="1610080754675" duration="7484000" />
+      <workItem from="1610088492627" duration="14358000" />
+      <workItem from="1610194026103" duration="600000" />
+      <workItem from="1610262927122" duration="593000" />
+      <workItem from="1610334587245" duration="15743000" />
+      <workItem from="1610373695810" duration="4396000" />
+      <workItem from="1610416691050" duration="12014000" />
+      <workItem from="1610504510605" duration="21791000" />
+      <workItem from="1610592237735" duration="2797000" />
+      <workItem from="1610687424500" duration="7658000" />
+      <workItem from="1610782031752" duration="5878000" />
+      <workItem from="1610870631108" duration="14801000" />
+      <workItem from="1610942646063" duration="8792000" />
+      <workItem from="1611022759571" duration="19034000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2092" y="102" key="#Deployment" timestamp="1607231133021">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state x="2092" y="102" key="#Deployment/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1607231133021" />
+    <state x="2052" y="94" key="#Deployment/0.0.1536.824/1920.-524.1080.1920@1920.-524.1080.1920" timestamp="1604058272287" />
+    <state x="2086" y="94" key="#Inspections" timestamp="1610876316946">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state x="2086" y="94" key="#Inspections/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1610876316946" />
+    <state x="2105" y="98" key="#Options" timestamp="1610350680732">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state x="2105" y="98" key="#Options/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1610350680732" />
+    <state x="2105" y="111" key="#Options/0.0.1536.824/1920.-524.1080.1920@1920.-524.1080.1920" timestamp="1604051762751" />
+    <state x="555" y="120" key="#Python" timestamp="1603884368089">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="555" y="120" key="#Python/0.0.1536.824@0.0.1536.824" timestamp="1603884368089" />
+    <state x="2043" y="258" key="#SSH_Configurations" timestamp="1606833025755">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state x="2043" y="258" key="#SSH_Configurations/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1606833025755" />
+    <state x="2043" y="275" key="#SSH_Configurations/0.0.1536.824/1920.-524.1080.1920@1920.-524.1080.1920" timestamp="1604055134391" />
+    <state x="1920" y="78" width="1080" height="915" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606831261661">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state x="1920" y="78" width="1080" height="915" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1606831261661" />
+    <state x="1920" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.-524.1080.1920@1920.-524.1080.1920" timestamp="1604056824915" />
+    <state x="2168" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610344318112">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state x="2168" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1610344318112" />
+    <state x="2190" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606555939872">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state x="2190" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1606555939872" />
+    <state x="2215" y="118" key="#xdebugger.evaluate" timestamp="1607504837361">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state x="2215" y="118" key="#xdebugger.evaluate/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1607504837361" />
+    <state x="2214" y="273" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1606710269680">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state x="2214" y="273" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1606710269680" />
+    <state x="1995" y="-67" width="717" height="1243" maximized="true" key="DiffContextDialog" timestamp="1610353227745">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state x="1995" y="-67" width="717" height="1243" maximized="true" key="DiffContextDialog/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1610353227745" />
+    <state x="2384" y="104" key="FileChooserDialogImpl" timestamp="1610350473583">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state x="2384" y="104" key="FileChooserDialogImpl/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1610350473583" />
+    <state x="543" y="170" key="FileChooserDialogImpl/0.0.1536.824/1920.-524.1080.1920@0.0.1536.824" timestamp="1603762977859" />
+    <state x="2384" y="117" key="FileChooserDialogImpl/0.0.1536.824/1920.-524.1080.1920@1920.-524.1080.1920" timestamp="1604205502484" />
+    <state x="543" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607068487310" />
+    <state width="678" height="318" key="GridCell.Tab.0.bottom" timestamp="1610378736143">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state width="1493" height="138" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-524.1080.1880@0.0.1536.824" timestamp="1607501522974" />
+    <state width="678" height="318" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1610378736143" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-524.1080.1920@0.0.1536.824" timestamp="1603767775961" />
+    <state width="1037" height="259" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-524.1080.1920@1920.-524.1080.1920" timestamp="1604211576793" />
+    <state width="679" height="318" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610362759130" />
+    <state width="678" height="318" key="GridCell.Tab.0.center" timestamp="1610378736142">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state width="1493" height="138" key="GridCell.Tab.0.center/0.0.1536.824/1920.-524.1080.1880@0.0.1536.824" timestamp="1607501522974" />
+    <state width="678" height="318" key="GridCell.Tab.0.center/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1610378736142" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.-524.1080.1920@0.0.1536.824" timestamp="1603767775961" />
+    <state width="1037" height="259" key="GridCell.Tab.0.center/0.0.1536.824/1920.-524.1080.1920@1920.-524.1080.1920" timestamp="1604211576793" />
+    <state width="679" height="318" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610362759130" />
+    <state width="678" height="318" key="GridCell.Tab.0.left" timestamp="1610378736142">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state width="1493" height="138" key="GridCell.Tab.0.left/0.0.1536.824/1920.-524.1080.1880@0.0.1536.824" timestamp="1607501522973" />
+    <state width="678" height="318" key="GridCell.Tab.0.left/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1610378736142" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.-524.1080.1920@0.0.1536.824" timestamp="1603767775961" />
+    <state width="1037" height="259" key="GridCell.Tab.0.left/0.0.1536.824/1920.-524.1080.1920@1920.-524.1080.1920" timestamp="1604211576792" />
+    <state width="679" height="318" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610362759130" />
+    <state width="678" height="318" key="GridCell.Tab.0.right" timestamp="1610378736143">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state width="1493" height="138" key="GridCell.Tab.0.right/0.0.1536.824/1920.-524.1080.1880@0.0.1536.824" timestamp="1607501522974" />
+    <state width="678" height="318" key="GridCell.Tab.0.right/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1610378736143" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.-524.1080.1920@0.0.1536.824" timestamp="1603767775961" />
+    <state width="1037" height="259" key="GridCell.Tab.0.right/0.0.1536.824/1920.-524.1080.1920@1920.-524.1080.1920" timestamp="1604211576793" />
+    <state width="679" height="318" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610362759130" />
+    <state width="413" height="642" key="GridCell.Tab.1.bottom" timestamp="1607528404252">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state width="1493" height="151" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.-524.1080.1880@0.0.1536.824" timestamp="1607499337999" />
+    <state width="413" height="642" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1607528404252" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.-524.1080.1920@1920.-524.1080.1920" timestamp="1603895250935" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603884223128" />
+    <state width="413" height="642" key="GridCell.Tab.1.center" timestamp="1607528404251">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state width="1493" height="151" key="GridCell.Tab.1.center/0.0.1536.824/1920.-524.1080.1880@0.0.1536.824" timestamp="1607499337997" />
+    <state width="413" height="642" key="GridCell.Tab.1.center/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1607528404251" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.-524.1080.1920@1920.-524.1080.1920" timestamp="1603895250933" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603884223128" />
+    <state width="413" height="642" key="GridCell.Tab.1.left" timestamp="1607528404251">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state width="1493" height="151" key="GridCell.Tab.1.left/0.0.1536.824/1920.-524.1080.1880@0.0.1536.824" timestamp="1607499337997" />
+    <state width="413" height="642" key="GridCell.Tab.1.left/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1607528404251" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.-524.1080.1920@1920.-524.1080.1920" timestamp="1603895250932" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603884223128" />
+    <state width="413" height="642" key="GridCell.Tab.1.right" timestamp="1607528404251">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state width="1493" height="151" key="GridCell.Tab.1.right/0.0.1536.824/1920.-524.1080.1880@0.0.1536.824" timestamp="1607499337997" />
+    <state width="413" height="642" key="GridCell.Tab.1.right/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1607528404251" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.-524.1080.1920@1920.-524.1080.1920" timestamp="1603895250935" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603884223128" />
+    <state x="1939" y="72" key="SettingsEditor" timestamp="1610081571424">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state x="1939" y="72" key="SettingsEditor/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1610081571424" />
+    <state x="2000" y="66" key="SettingsEditor/0.0.1536.824/1920.-524.1080.1920@1920.-524.1080.1920" timestamp="1604065376126" />
+    <state width="548" height="948" key="XDebugger.FullValuePopup" timestamp="1607504850174">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state width="548" height="948" key="XDebugger.FullValuePopup/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1607504850174" />
+    <state x="2229" y="139" width="699" height="538" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1606831923676">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state x="2229" y="139" width="699" height="538" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1606831923676" />
+    <state x="195" y="101" width="1337" height="572" key="dock-window-1" timestamp="1603884259034">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="195" y="101" width="1337" height="572" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1603884259034" />
+    <state x="2162" y="34" width="596" height="804" key="find.popup" timestamp="1604056431745">
+      <screen x="1920" y="-524" width="1080" height="1920" />
+    </state>
+    <state x="2162" y="34" width="596" height="804" key="find.popup/0.0.1536.824/1920.-524.1080.1920@1920.-524.1080.1920" timestamp="1604056431745" />
+    <state x="2435" y="238" width="310" height="539" key="ftp.server.browser" timestamp="1607501262398">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state x="2435" y="238" width="310" height="539" key="ftp.server.browser/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1607501262398" />
+    <state x="2333" y="235" width="466" height="737" key="ftp.server.browser/0.0.1536.824/1920.-524.1080.1920@1920.-524.1080.1920" timestamp="1604065345090" />
+    <state x="2300" y="200" key="refactoring.ChangeSignatureDialog" timestamp="1607419155309">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state x="2300" y="200" key="refactoring.ChangeSignatureDialog/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1607419155309" />
+    <state x="2123" y="-89" width="672" height="678" key="search.everywhere.popup" timestamp="1610351670908">
+      <screen x="1920" y="-524" width="1080" height="1880" />
+    </state>
+    <state x="2123" y="-89" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.-524.1080.1880@1920.-524.1080.1880" timestamp="1610351670908" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/XNAS_master$feature_extract.coverage" NAME="feature_extract Coverage Results" MODIFIED="1610349184371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/training_free_netadaption-master/CAP" />
+    <SUITE FILE_PATH="coverage/XNAS_master$test.coverage" NAME="test Coverage Results" MODIFIED="1610346773739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/Test" />
+    <SUITE FILE_PATH="coverage/SNG_py$train_search.coverage" NAME="train_search Coverage Results" MODIFIED="1604054628644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../darts-master/cnn" />
+    <SUITE FILE_PATH="coverage/XNAS_master$feature_extract__1_.coverage" NAME="feature_extract (1) Coverage Results" MODIFIED="1610374291503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/training_free_netadaption/CAP" />
+    <SUITE FILE_PATH="coverage/XNAS_master$main.coverage" NAME="main Coverage Results" MODIFIED="1607068387418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/视频分析前沿/vas/期末报告/meanshift" />
+    <SUITE FILE_PATH="coverage/XNAS_master$train2.coverage" NAME="train2 Coverage Results" MODIFIED="1607428906645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/distill/taskC" />
+    <SUITE FILE_PATH="coverage/SNG_py$GMM.coverage" NAME="GMM Coverage Results" MODIFIED="1603890426915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/视频分析前沿/gmm王欢" />
+    <SUITE FILE_PATH="coverage/XNAS_master$train.coverage" NAME="train Coverage Results" MODIFIED="1607852606602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/pytorch-cifar100-master" />
+    <SUITE FILE_PATH="coverage/XNAS_master$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1607166740282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/video analysis/vas/期末报告/meanshift" />
+    <SUITE FILE_PATH="coverage/XNAS_master$bmp2mp4.coverage" NAME="bmp2mp4 Coverage Results" MODIFIED="1604217969202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/视频分析前沿/gmm 马跃萧/期中报告" />
+    <SUITE FILE_PATH="coverage/XNAS_master$train_student__1_.coverage" NAME="train_student (1) Coverage Results" MODIFIED="1607774894495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/distill/taskD" />
+    <SUITE FILE_PATH="coverage/XNAS_master$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1607253712598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/resnet20_old/scripts" />
+    <SUITE FILE_PATH="coverage/XNAS_master$oldfashion.coverage" NAME="oldfashion Coverage Results" MODIFIED="1606710445758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/resnet20" />
+    <SUITE FILE_PATH="coverage/XNAS_master$resnet.coverage" NAME="resnet Coverage Results" MODIFIED="1606895461071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/resnet20_adapt_lr" />
+    <SUITE FILE_PATH="coverage/XNAS_master$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1609685074031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/training_free_netadaption-master/CAP" />
+    <SUITE FILE_PATH="coverage/SNG_py$main.coverage" NAME="main Coverage Results" MODIFIED="1603891297066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/视频分析前沿/vas/期中报告/GMM_back_abs" />
+    <SUITE FILE_PATH="coverage/XNAS_master$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1607233648043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/videoanalysis/vas/期末报告/meanshift" />
+    <SUITE FILE_PATH="coverage/SNG_py$test.coverage" NAME="test Coverage Results" MODIFIED="1604049738937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/Test" />
+    <SUITE FILE_PATH="coverage/XNAS_master$456.coverage" NAME="456 Coverage Results" MODIFIED="1606560269265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/Test" />
+    <SUITE FILE_PATH="coverage/XNAS_master$meanshift__2_.coverage" NAME="meanshift (2) Coverage Results" MODIFIED="1607233030903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/videoanalysis/vas/期末报告/meanshift" />
+    <SUITE FILE_PATH="coverage/XNAS_master$train_student.coverage" NAME="train_student Coverage Results" MODIFIED="1608088251129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/distill/taskC" />
+    <SUITE FILE_PATH="coverage/XNAS_master$pruning_cifar10.coverage" NAME="pruning_cifar10 Coverage Results" MODIFIED="1607343109134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/filter-pruning-geometric-median-master" />
+    <SUITE FILE_PATH="coverage/XNAS_master$trainer.coverage" NAME="trainer Coverage Results" MODIFIED="1606877731613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/pytorch_resnet_cifar10-master" />
+    <SUITE FILE_PATH="coverage/XNAS_master$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1610348559444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/Test" />
+    <SUITE FILE_PATH="coverage/XNAS_master$imagenet.coverage" NAME="imagenet Coverage Results" MODIFIED="1606831654626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/mobilenetv2.pytorch-master" />
+    <SUITE FILE_PATH="coverage/XNAS_master$meanshift.coverage" NAME="meanshift Coverage Results" MODIFIED="1607232440270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/Meanshift-master" />
+    <SUITE FILE_PATH="coverage/XNAS_master$run_manager.coverage" NAME="run_manager Coverage Results" MODIFIED="1609685587008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/training_free_netadaption-master/CAP" />
+    <SUITE FILE_PATH="coverage/XNAS_master$train_search.coverage" NAME="train_search Coverage Results" MODIFIED="1604066524089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/darts-master/cnn" />
+    <SUITE FILE_PATH="coverage/XNAS_master$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1607254048006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/search-EXP-20201201-001508/scripts" />
+    <SUITE FILE_PATH="coverage/XNAS_master$meanshift__1_.coverage" NAME="meanshift (1) Coverage Results" MODIFIED="1607173347268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/Meanshift-master" />
+    <SUITE FILE_PATH="coverage/XNAS_master$vgg.coverage" NAME="vgg Coverage Results" MODIFIED="1610346288770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/training_free_netadaption-master/CAP/models" />
+    <SUITE FILE_PATH="coverage/XNAS_master$GMM.coverage" NAME="GMM Coverage Results" MODIFIED="1604211576763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/视频分析前沿/gmm王欢" />
+    <SUITE FILE_PATH="coverage/XNAS_master$123.coverage" NAME="123 Coverage Results" MODIFIED="1609682359757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/Test" />
+    <SUITE FILE_PATH="coverage/XNAS_master$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1604413997215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProject/pytorch-cifar-master" />
+    <SUITE FILE_PATH="coverage/XNAS_master$func.coverage" NAME="func Coverage Results" MODIFIED="1607169968626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/videoanalysis/vas/期末报告/meanshift" />
+  </component>
+</project>
